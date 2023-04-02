@@ -46,7 +46,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     window.scrollTo({ top: 1800, behavior: "smooth" });
   };
 
-  if (!currentExercises.length) return <Loader />;
+  if (!currentExercises?.length) return <Loader />;
 
   return (
     <Box id="exercises" sx={{ mt: { lg: "109px" } }} mt="50px" p="20px">
@@ -69,12 +69,12 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         ))}
       </Stack>
       <Stack sx={{ mt: { lg: "114px", xs: "70px" } }} alignItems="center">
-        {exercises.length > 9 && (
+        {exercises?.length > 9 && (
           <Pagination
             color="standard"
             shape="rounded"
             defaultPage={1}
-            count={Math.ceil(exercises.length / exercisesPerPage)}
+            count={Math.ceil(exercises?.length / exercisesPerPage)}
             page={currentPage}
             onChange={paginate}
             size="large"

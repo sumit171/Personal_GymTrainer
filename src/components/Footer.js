@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import Logo from "../assets/Logo-1.png";
+import Logo from "../assets/logo-footer-aq-removebg.png";
 
 const Footer = () => (
   <Box mt="80px" bgcolor="#d6f3ff" style={{
@@ -23,7 +23,7 @@ const Footer = () => (
       textAlign="center"
       pb="40px"
     >
-      Made with ❤️ by Veera Fitness
+      Made with 💙 by Sumit Fitness
     </Typography>
   </Box>
 );
