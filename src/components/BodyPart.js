@@ -21,7 +21,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
           }
         : {
             background: "#fff",
-            borderBottomLeftRadius: "22px", //20
+            borderBottomLeftRadius: "22px", //20px
             width: "270px",
             height: "282px",
             cursor: "pointer",
