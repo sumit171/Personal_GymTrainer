@@ -53,7 +53,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       <Typography
         variant="h4"
         fontWeight="bold"
-        sx={{ fontSize: { lg: "44px", xs: "30px" } }}
+        sx={{ fontSize: { lg: "44px", xs: "30px" } }} //30px for xs
         mb="46px"
       >
         Showing Results
